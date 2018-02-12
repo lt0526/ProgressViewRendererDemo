@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ProgressBarDemo"
+             x:Class="ProgressBarDemo.MainPage"
+             Padding="0, 44">
+
+    <StackLayout>
+        <local:ProgressView x:Name="MyProgress" HeightRequest="50"/>
+
+        <Button x:Name="MyBtn" Text="MyBtn"/>
+    </StackLayout>
+	
+
+</ContentPage>
